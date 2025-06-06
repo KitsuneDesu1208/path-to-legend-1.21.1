@@ -26,7 +26,9 @@
   "item.path_to_legends.dark_stone": "§dDark Stone",
   "item.path_to_legends.dark_stone.tooltip": "§8Zekrom's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.",
 
-  "block.path_to_legends.pedestal": "§dPedestal",
+  "block.path_to_legends.andesite_pedestal": "Andesite Pedestal",
+  "block.path_to_legends.deepslate_pedestal": "Deepslate Pedestal",
 
-  "itemgroup.path_to_legends.path_to_legends_items": "Path To Legends Items"
+  "itemgroup.path_to_legends.path_to_legends_items": "Path To Legends Items",
+  "itemgroup.path_to_legends.path_to_legends_blocks": "Path To Legends Blocks"
 }

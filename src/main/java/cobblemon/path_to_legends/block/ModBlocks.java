@@ -12,8 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block PEDESTAL = registerBlock("pedestal",
-            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
+    public static final Block ANDESITE_PEDESTAL = registerBlock("andesite_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block DEEPSLATE_PEDESTAL = registerBlock("deepslate_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

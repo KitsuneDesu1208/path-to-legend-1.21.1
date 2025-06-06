@@ -11,7 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup PATH_TO_LEGENDS = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup PATH_TO_LEGENDS_ITEMS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(PathToLegends.MOD_ID, "path_to_legends_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.AZURE_FLUTE))
                     .displayName(Text.translatable("itemgroup.path_to_legends.path_to_legends_items"))
@@ -26,8 +26,18 @@ public class ModItemGroups {
                         entries.add(ModItems.DARK_STONE);
                         entries.add(ModItems.AZURE_FLUTE);
                         entries.add(ModItems.CELESTICA_FLUTE);
-                        entries.add(ModBlocks.PEDESTAL);
                     }).build());
+
+    public static final ItemGroup PATH_TO_LEGENDS_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(PathToLegends.MOD_ID, "path_to_legends_blocks"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ANDESITE_PEDESTAL))
+                    .displayName(Text.translatable("itemgroup.path_to_legends.path_to_legends_blocks"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.ANDESITE_PEDESTAL);
+                        entries.add(ModBlocks.DEEPSLATE_PEDESTAL);
+                    }).build());
+
+
     public static void registerItemGroups(){
         PathToLegends.LOGGER.info("Registering Item Groups for " + PathToLegends.MOD_ID);
     }

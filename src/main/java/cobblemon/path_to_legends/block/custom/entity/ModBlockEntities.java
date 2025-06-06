@@ -13,5 +13,9 @@ public class ModBlockEntities {
 
     public static final BlockEntityType<PedestalBlockEntity> PEDESTAL_BE =
             Registry.register(Registries.BLOCK_ENTITY_TYPE, Identifier.of(PathToLegends.MOD_ID, "pedestal_be"),
-                    BlockEntityType.Builder.create(PedestalBlockEntity::new, ModBlocks.PEDESTAL).build(null));
+                    BlockEntityType.Builder.create(PedestalBlockEntity::new,
+                            ModBlocks.ANDESITE_PEDESTAL,
+                            ModBlocks.DEEPSLATE_PEDESTAL
+                    ).build(null));
+
 }

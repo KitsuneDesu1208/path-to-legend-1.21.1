@@ -28,7 +28,7 @@ public class PedestalBlockEntityRenderer implements BlockEntityRenderer<Pedestal
             };
 
             matrices.push();
-            matrices.translate(0.5, 1.15, 0.5);
+            matrices.translate(0.5, 1.25, 0.5);
             matrices.scale(0.5f, 0.5f, 0.5f);
             matrices.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(angle));
 
