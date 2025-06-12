@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "path_to_legends:block/nether_bricks_pedestal", "y": 0 },
+    "facing=south": { "model": "path_to_legends:block/nether_bricks_pedestal", "y": 180 },
+    "facing=west": { "model": "path_to_legends:block/nether_bricks_pedestal", "y": 270 },
+    "facing=east": { "model": "path_to_legends:block/nether_bricks_pedestal", "y": 90 }
+  }
+}

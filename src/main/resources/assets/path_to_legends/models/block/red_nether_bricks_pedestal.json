@@ -5,8 +5,8 @@
     64
   ],
   "textures": {
-    "0": "path_to_legends:block/deepslate_pedestal",
-    "particle": "path_to_legends:block/deepslate_pedestal"
+    "0": "path_to_legends:block/red_nether_bricks_pedestal",
+    "particle": "path_to_legends:block/red_nether_bricks_pedestal"
   },
   "elements": [
     {

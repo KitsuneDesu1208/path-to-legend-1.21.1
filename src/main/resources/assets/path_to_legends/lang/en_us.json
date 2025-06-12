@@ -26,8 +26,27 @@
   "item.path_to_legends.dark_stone": "§dDark Stone",
   "item.path_to_legends.dark_stone.tooltip": "§8Zekrom's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.",
 
+  "item.path_to_legends.celestica_flute": "§dCelestica Flute",
+  "item.path_to_legends.celestica_flute.tooltip": "§8A flute that can be used to call special Pokémon that are willing to bear you around the region. Its timbre is eerie and mysterious.",
+
   "block.path_to_legends.andesite_pedestal": "Andesite Pedestal",
+  "block.path_to_legends.diorite_pedestal": "Diorite Pedestal",
+  "block.path_to_legends.granite_pedestal": "Granite Pedestal",
   "block.path_to_legends.deepslate_pedestal": "Deepslate Pedestal",
+  "block.path_to_legends.mud_pedestal": "Mud Pedestal",
+  "block.path_to_legends.blackstone_pedestal": "Blackstone Pedestal",
+  "block.path_to_legends.end_stone_pedestal": "End Stone Pedestal",
+  "block.path_to_legends.purpur_pedestal": "Purpur Pedestal",
+  "block.path_to_legends.bricks_pedestal": "Bricks Pedestal",
+  "block.path_to_legends.sandstone_pedestal": "Sandstone Pedestal",
+  "block.path_to_legends.red_sandstone_pedestal": "Red Sandstone Pedestal",
+  "block.path_to_legends.nether_bricks_pedestal": "Nether Bricks Pedestal",
+  "block.path_to_legends.red_nether_bricks_pedestal": "Red Nether Bricks Pedestal",
+  "block.path_to_legends.prismarine_bricks_pedestal": "Prismarine Bricks Pedestal",
+  "block.path_to_legends.tuff_bricks_pedestal": "Tuff Bricks Pedestal",
+  "block.path_to_legends.stone_bricks_pedestal": "Stone Bricks Pedestal",
+  "block.path_to_legends.dark_prismarine_pedestal": "Dark Prismarine Pedestal",
+  "block.path_to_legends.quartz_bricks_pedestal": "Quartz Bricks Pedestal",
 
   "itemgroup.path_to_legends.path_to_legends_items": "Path To Legends Items",
   "itemgroup.path_to_legends.path_to_legends_blocks": "Path To Legends Blocks"

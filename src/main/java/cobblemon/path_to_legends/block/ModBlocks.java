@@ -15,7 +15,55 @@ public class ModBlocks {
     public static final Block ANDESITE_PEDESTAL = registerBlock("andesite_pedestal",
             new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
 
+    public static final Block DIORITE_PEDESTAL = registerBlock("diorite_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block GRANITE_PEDESTAL = registerBlock("granite_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
     public static final Block DEEPSLATE_PEDESTAL = registerBlock("deepslate_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block MUD_PEDESTAL = registerBlock("mud_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block BLACKSTONE_PEDESTAL = registerBlock("blackstone_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block END_STONE_PEDESTAL = registerBlock("end_stone_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block PURPUR_PEDESTAL = registerBlock("purpur_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block BRICKS_PEDESTAL = registerBlock("bricks_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block SANDSTONE_PEDESTAL = registerBlock("sandstone_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block RED_SANDSTONE_PEDESTAL = registerBlock("red_sandstone_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block NETHER_BRICKS_PEDESTAL = registerBlock("nether_bricks_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block RED_NETHER_BRICKS_PEDESTAL = registerBlock("red_nether_bricks_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block PRISMARINE_BRICKS_PEDESTAL = registerBlock("prismarine_bricks_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block STONE_BRICKS_PEDESTAL = registerBlock("stone_bricks_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block DARK_PRISMARINE_PEDESTAL = registerBlock("dark_prismarine_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block QUARTZ_BRICKS_PEDESTAL = registerBlock("quartz_bricks_pedestal",
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
+
+    public static final Block TUFF_BRICKS_PEDESTAL = registerBlock("tuff_bricks_pedestal",
             new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque().strength(-1f).resistance(3600000f)));
 
     private static Block registerBlock(String name, Block block) {

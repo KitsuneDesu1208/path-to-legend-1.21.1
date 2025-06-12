@@ -13,13 +13,7 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 
 public class ModItems {
-    public static final Item AZURE_FLUTE = registerItem("azure_flute", new Item(new Item.Settings()){
-        @Override
-        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-            tooltip.add(Text.translatable("item.path_to_legends.azure_flute.tooltip"));
-            super.appendTooltip(stack, context, tooltip, type);
-        }
-    }) ;
+
     public static final Item UXIE_CLAW = registerItem("uxie_claw", new Item(new Item.Settings()){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -77,9 +71,21 @@ public class ModItems {
         }
     });
 
-    public static final Item CELESTICA_FLUTE = registerItem("celestica_flute",
-            new FluteItem(new Item.Settings(), "path_to_legends:flute")
-    );
+    public static final Item CELESTICA_FLUTE = registerItem("celestica_flute", new FluteItem(new Item.Settings(), "path_to_legends:items/celestica_flute"){
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("item.path_to_legends.celestica_flute.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
+
+    public static final Item AZURE_FLUTE = registerItem("azure_flute", new FluteItem(new Item.Settings(),"path_to_legends:items/azure_flute"){
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("item.path_to_legends.azure_flute.tooltip"));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    }) ;
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(PathToLegends.MOD_ID, name), item);

@@ -33,8 +33,29 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.ANDESITE_PEDESTAL))
                     .displayName(Text.translatable("itemgroup.path_to_legends.path_to_legends_blocks"))
                     .entries((displayContext, entries) -> {
+
+                        entries.add(ModBlocks.STONE_BRICKS_PEDESTAL);
+                        entries.add(ModBlocks.GRANITE_PEDESTAL);
+                        entries.add(ModBlocks.DIORITE_PEDESTAL);
                         entries.add(ModBlocks.ANDESITE_PEDESTAL);
                         entries.add(ModBlocks.DEEPSLATE_PEDESTAL);
+                        entries.add(ModBlocks.TUFF_BRICKS_PEDESTAL);
+                        entries.add(ModBlocks.BRICKS_PEDESTAL);
+                        entries.add(ModBlocks.MUD_PEDESTAL);
+                        entries.add(ModBlocks.SANDSTONE_PEDESTAL);
+                        entries.add(ModBlocks.RED_SANDSTONE_PEDESTAL);
+                        entries.add(ModBlocks.PRISMARINE_BRICKS_PEDESTAL);
+                        entries.add(ModBlocks.DARK_PRISMARINE_PEDESTAL);
+                        entries.add(ModBlocks.NETHER_BRICKS_PEDESTAL);
+                        entries.add(ModBlocks.RED_NETHER_BRICKS_PEDESTAL);
+                        entries.add(ModBlocks.BLACKSTONE_PEDESTAL);
+                        entries.add(ModBlocks.END_STONE_PEDESTAL);
+                        entries.add(ModBlocks.PURPUR_PEDESTAL);
+                        entries.add(ModBlocks.QUARTZ_BRICKS_PEDESTAL);
+
+
+
+
                     }).build());
 
 

@@ -56,9 +56,11 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.0")
 
-    modImplementation("maven.modrinth:cobblemon-mega-showdown:9.6.10-release-hotfix-fabric")
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:9.7.1-release-fabric")
 
     modImplementation("maven.modrinth:supermartijn642s-config-lib:1.1.8-fabric-mc1.21")
+
+    modImplementation("maven.modrinth:language-reload:1.7.3+1.21.1")
 
     modImplementation("dev.emi:trinkets:${properties["trinkets_version"]}")
 }

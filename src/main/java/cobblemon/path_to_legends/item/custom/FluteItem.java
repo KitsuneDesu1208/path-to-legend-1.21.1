@@ -22,7 +22,7 @@ public class FluteItem extends Item {
 
     @Override
     public UseAction getUseAction(ItemStack stack) {
-        return UseAction.TOOT_HORN;
+        return UseAction.BOW;
     }
 
     @Override
@@ -33,18 +33,10 @@ public class FluteItem extends Item {
 
     @Override
     public int getMaxUseTime(ItemStack stack, LivingEntity user) {
-        return 20;
+        return 3600000;
     }
 
-    @Override
-    public void usageTick(World world, LivingEntity user, ItemStack stack, int remainingUseTicks) {
-        int elapsed = getMaxUseTime(stack, user) - remainingUseTicks;
-        if (elapsed >= getMaxUseTime(stack, user)) {
-            if (user instanceof PlayerEntity player) {
-                player.stopUsingItem();
-            }
-        }
-    }
+
 
     @Override
     public void onStoppedUsing(ItemStack stack, World world, LivingEntity user, int remainingUseTicks) {
@@ -56,6 +48,8 @@ public class FluteItem extends Item {
             if (functionName != null && !functionName.isEmpty()) {
                 server.getCommandManager().executeWithPrefix(commandSource, "function " + functionName);
             }
+
+            player.getItemCooldownManager().set(this, 40);
         }
     }
 
