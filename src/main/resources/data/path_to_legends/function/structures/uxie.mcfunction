@@ -1,0 +1,3 @@
+execute as @e[type=minecraft:armor_stand,tag=ptl_uxie_pedestal,scores={ptl_spawn_stat=0..1}] at @s run function path_to_legends:spawn_check/uxie
+execute as @e[type=minecraft:armor_stand,tag=ptl_uxie_pedestal,scores={ptl_spawn_stat=1}] at @s run function path_to_legends:spawn_process/uxie
+execute as @e[type=minecraft:armor_stand,tag=ptl_uxie_pedestal,scores={ptl_spawn_stat=2}] at @s run function path_to_legends:spawn/uxie

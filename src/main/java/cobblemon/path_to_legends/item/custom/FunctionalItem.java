@@ -12,10 +12,10 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.world.ServerWorld;
 
-public class FluteItem extends Item {
+public class FunctionalItem extends Item {
     private final String functionName;
 
-    public FluteItem(Settings settings, String functionName) {
+    public FunctionalItem(Settings settings, String functionName) {
         super(settings);
         this.functionName = functionName;
     }

@@ -1,0 +1,1 @@
+scoreboard players set @s ptl_spawn_stat 3

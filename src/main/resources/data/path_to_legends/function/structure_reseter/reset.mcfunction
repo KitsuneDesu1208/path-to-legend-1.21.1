@@ -1,0 +1,1 @@
+execute as @e[tag=ptl_pedestal,sort=nearest,distance=..10] run function path_to_legends:pedestal_stat_set/0

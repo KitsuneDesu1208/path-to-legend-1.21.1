@@ -1,1 +1,0 @@
-setblock ~ ~ ~ diamond_block

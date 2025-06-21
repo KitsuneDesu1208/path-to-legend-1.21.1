@@ -1,7 +1,7 @@
 package cobblemon.path_to_legends.item;
 
 import cobblemon.path_to_legends.PathToLegends;
-import cobblemon.path_to_legends.item.custom.FluteItem;
+import cobblemon.path_to_legends.item.custom.FunctionalItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -35,7 +35,7 @@ public class ModItems {
             super.appendTooltip(stack, context, tooltip, type);
         }
     });
-    public static final Item RED_CHAIN = registerItem("red_chain", new Item(new Item.Settings()){
+    public static final Item RED_CHAIN = registerItem("red_chain", new FunctionalItem(new Item.Settings(),"path_to_legends:items/red_chain"){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("item.path_to_legends.red_chain.tooltip"));
@@ -71,7 +71,7 @@ public class ModItems {
         }
     });
 
-    public static final Item CELESTICA_FLUTE = registerItem("celestica_flute", new FluteItem(new Item.Settings(), "path_to_legends:items/celestica_flute"){
+    public static final Item CELESTICA_FLUTE = registerItem("celestica_flute", new FunctionalItem(new Item.Settings(), "path_to_legends:items/celestica_flute"){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("item.path_to_legends.celestica_flute.tooltip"));
@@ -79,7 +79,7 @@ public class ModItems {
         }
     });
 
-    public static final Item AZURE_FLUTE = registerItem("azure_flute", new FluteItem(new Item.Settings(),"path_to_legends:items/azure_flute"){
+    public static final Item AZURE_FLUTE = registerItem("azure_flute", new FunctionalItem(new Item.Settings(),"path_to_legends:items/azure_flute"){
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             tooltip.add(Text.translatable("item.path_to_legends.azure_flute.tooltip"));

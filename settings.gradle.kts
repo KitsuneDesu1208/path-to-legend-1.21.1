@@ -1,4 +1,4 @@
-rootProject.name = "Fabric" //By default, this is how your built jar is called
+rootProject.name = "Path_to_Legends_Reforged" //By default, this is how your built jar is called
 
 pluginManagement {
     repositories {

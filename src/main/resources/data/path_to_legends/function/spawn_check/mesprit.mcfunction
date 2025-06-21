@@ -1,0 +1,2 @@
+execute as @s unless predicate path_to_legends:pedestal/mesprit run function path_to_legends:pedestal_stat_set/0 
+execute as @s if predicate path_to_legends:pedestal/mesprit run function path_to_legends:pedestal_stat_set/1

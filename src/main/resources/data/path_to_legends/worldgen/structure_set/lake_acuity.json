@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "path_to_legends:lake_acuity",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 80,
+      "separation": 40,
+      "salt": 1121414
+    }
+  }

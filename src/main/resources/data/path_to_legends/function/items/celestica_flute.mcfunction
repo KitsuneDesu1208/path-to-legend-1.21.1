@@ -1,1 +1,1 @@
-setblock ~ ~ ~ redstone_block
+function path_to_legends:structure_reseter/reset

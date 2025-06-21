@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"stepping_on": {
+			"block": {
+				"blocks": "#path_to_legends:pedestal",
+				"nbt": "{Items:[{Slot:0b,id:\"mega_showdown:griseous_core\"}]}"
+			}
+		}
+	}
+}
